@@ -1,0 +1,103 @@
+.vtm-page-title {
+    font-size: 42px;
+    text-align: center;
+    color: rgb(204, 10, 33);
+    font-weight: bold;
+  }
+
+  .vtm-input {
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: black;
+    width: 100%;
+    text-align: center;
+    pointer-events: auto;
+  }
+
+  
+  .vtm-attribute-input {
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: black;
+    width: 100%;
+    text-align: center;
+    pointer-events: auto;
+  }
+
+  .arrow-label-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .arrow {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .arrow-line {
+    position: absolute;
+    top: 50%;
+    width: 600px; 
+    border-bottom: 4px solid #000000; 
+  }
+  
+  .left-arrow .arrow-line {
+    left: 10px;
+    transform: translate(0, -50%);
+  }
+  
+  .right-arrow .arrow-line {
+    right: 10px; 
+    transform: translate(0, -50%);
+  }
+
+  .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    display: inline-block;
+    margin: 0 50px;
+  }
+  
+  .left-arrow {
+    left: -550px;
+    border-width: 5px 20px 5px 0;
+    border-color: transparent #000000 transparent transparent;
+  }
+  
+  .right-arrow {
+    right: -550px;
+    border-width: 5px 0 5px 20px;
+    border-color: transparent transparent transparent #000000;
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin: 0 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.square {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000;
+  margin: 0 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.filled {
+  background-color: rgb(88, 88, 88); 
+}
